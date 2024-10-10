@@ -1,6 +1,3 @@
-// Q1) Crie uma classe Carro com atributos como marca, modelo, e
-//ano. Instancie três objetos dessa classe e exiba os detalhes de cada um.
-
 package main
 
 import "fmt"

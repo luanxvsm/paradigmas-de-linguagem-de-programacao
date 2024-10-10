@@ -1,6 +1,3 @@
-// Q2) Adicione um método acelerar e frear à classe Carro que altere um atributo
-// velocidade. Crie um método para exibir a velocidade atual
-
 package main
 
 import "fmt"
@@ -24,7 +21,7 @@ func (c *Carro) Acelerar(incremento int) {
 func (c *Carro) Frear(decremento int) {
 	c.Velocidade -= decremento
 	if c.Velocidade < 0 {
-		c.Velocidade = 0  // Velocidade mínima é 0
+		c.Velocidade = 0
 	}
 	fmt.Printf("%s freou para %d km/h.\n", c.Modelo, c.Velocidade)
 }

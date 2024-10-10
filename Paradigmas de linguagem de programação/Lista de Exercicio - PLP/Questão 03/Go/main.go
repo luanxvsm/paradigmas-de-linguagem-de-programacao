@@ -1,6 +1,3 @@
-// Q3)  Implemente uma classe ContaBancaria com atributos saldo, titular e
-// métodos depositar e sacar. Use encapsulamento para proteger o atributo saldo.
-
 package main
 
 import "fmt"

@@ -1,6 +1,3 @@
-# Q2) Adicione um método acelerar e frear à classe Carro que altere um atributo
-# velocidade. Crie um método para exibir a velocidade atual
-
 class Carro:
     def __init__(self, marca, modelo, ano):
         self.marca = marca
